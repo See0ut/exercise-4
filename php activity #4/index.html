@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET and POST Example</title>
+</head>
+<body>
+    <h1>Form Submission</h1>
+
+    <h2>POST Method</h2>
+    <form id="postForm" method="POST" action="submit.php">
+        <label for="postName">Name:</label>
+        <input type="text" id="postName" name="postName" required>
+        <br><br>
+
+        <label for="postEmail">Email:</label>
+        <input type="email" id="postEmail" name="postEmail" required>
+        <br><br>
+
+        <button type="submit">Submit via POST</button>
+    </form>
+
+    <h2>GET Method</h2>
+    <form id="getForm" method="GET" action="submit.php">
+        <label for="getName">Name:</label>
+        <input type="text" id="getName" name="getName" required>
+        <br><br>
+
+        <label for="getEmail">Email:</label>
+        <input type="email" id="getEmail" name="getEmail" required>
+        <br><br>
+
+        <button type="submit">Submit via GET</button>
+    </form>
+</body>
+</html>
